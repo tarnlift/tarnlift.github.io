@@ -1,0 +1,340 @@
+/* Import Proxima Nova font */
+@import url('https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn6_esZW2xOQ-xsNqO47m55DA');
+
+/* Global font family for entire document */
+* {
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+body {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset margins and padding for lists and tables */
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+table td, table th {
+    padding: 0;
+}
+
+/* Existing class styles with Proxima Nova font */
+.c9 {
+    -webkit-text-decoration-skip: none;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: underline;
+    vertical-align: baseline;
+    text-decoration-skip-ink: none;
+    font-size: 26pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-style: normal;
+}
+
+.c4 {
+    padding-top: 18pt;
+    padding-bottom: 6pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+    height: 16pt;
+}
+
+.c18 {
+    padding-top: 0pt;
+    padding-bottom: 3pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+}
+
+.c19 {
+    padding-top: 20pt;
+    padding-bottom: 6pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+}
+
+.c2 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+    height: 11pt;
+}
+
+.c16 {
+    padding-top: 18pt;
+    padding-bottom: 6pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+}
+
+.c11 {
+    color: #434343;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 14pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-style: normal;
+}
+
+.c0 {
+    padding-top: 16pt;
+    padding-bottom: 4pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+.c1 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 11pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-style: normal;
+}
+
+.c5 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 10pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-style: normal;
+}
+
+.c13 {
+    padding-top: 16pt;
+    padding-bottom: 4pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+}
+
+.c8 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 16pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-style: normal;
+}
+
+.c12 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 11pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-style: normal;
+}
+
+.c6 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+.c3 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    orphans: 2;
+    widows: 2;
+    text-align: center;
+}
+
+.c15 {
+    text-decoration-skip-ink: none;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    -webkit-text-decoration-skip: none;
+    color: #1155cc;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.c14 {
+    font-size: 10pt;
+    font-weight: 400;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+.c10 {
+    background-color: #cccccc;
+    max-width: 468pt;
+    padding: 72pt 72pt 72pt 72pt;
+}
+
+.c20 {
+    font-weight: 400;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+.c17 {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.c21 {
+    height: 14pt;
+}
+
+.c7 {
+    height: 11pt;
+}
+
+/* Title and subtitle styles */
+.title {
+    padding-top: 0pt;
+    color: #000000;
+    font-size: 26pt;
+    padding-bottom: 3pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+.subtitle {
+    padding-top: 0pt;
+    color: #666666;
+    font-size: 15pt;
+    padding-bottom: 16pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+/* List and paragraph styles */
+li {
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+p {
+    margin: 0;
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+/* Heading styles */
+h1 {
+    padding-top: 20pt;
+    color: #000000;
+    font-size: 20pt;
+    padding-bottom: 6pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+h2 {
+    padding-top: 18pt;
+    color: #000000;
+    font-size: 16pt;
+    padding-bottom: 6pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+h3 {
+    padding-top: 16pt;
+    color: #434343;
+    font-size: 14pt;
+    padding-bottom: 4pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+h4 {
+    padding-top: 14pt;
+    color: #666666;
+    font-size: 12pt;
+    padding-bottom: 4pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+h5 {
+    padding-top: 12pt;
+    color: #666666;
+    font-size: 11pt;
+    padding-bottom: 4pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+h6 {
+    padding-top: 12pt;
+    color: #666666;
+    font-size: 11pt;
+    padding-bottom: 4pt;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    line-height: 1.15;
+    page-break-after: avoid;
+    font-style: italic;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+/* Ensure all text elements use Proxima Nova */
+a, span, div {
+    font-family: "Proxima Nova", Arial, sans-serif;
+} 

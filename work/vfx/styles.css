@@ -1,0 +1,259 @@
+/* ========================================
+   VFX Tech Reel Portfolio Styles
+   ======================================== */
+
+/* Import Proxima Nova font */
+@import url('https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn6_esZW2xOQ-xsNqO47m55DA');
+
+/* ========================================
+   GLOBAL STYLES
+   ======================================== */
+
+* {
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+body {
+    font-family: "Proxima Nova", Arial, sans-serif;
+    background-color: #cccccc;
+    max-width: 468pt;
+    padding: 72pt 72pt 72pt 72pt;
+    margin: 0;
+    color: #000000;
+    font-size: 11pt;
+    line-height: 1.15;
+}
+
+/* ========================================
+   CONTACT HEADER SECTION
+   ======================================== */
+
+.contact-header {
+    text-align: left;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.contact-name {
+    margin: 0 0 2px 0;
+    font-size: 28pt;
+    color: #000;
+    font-weight: bold;
+}
+
+.contact-title {
+    margin: 0 0 20px 0;
+    font-size: 18pt;
+    color: #434343;
+    font-weight: bold;
+}
+
+.contact-details {
+    font-size: 12pt;
+    line-height: 1.8;
+    color: #000;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.contact-details a {
+    color: #1155cc;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   TABLE OF CONTENTS
+   ======================================== */
+
+.table-of-contents {
+    background: transparent;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 4px solid #666;
+}
+
+.toc-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.toc-list {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.toc-list ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.toc-link {
+    color: #1155cc;
+    text-decoration: none;
+}
+
+.toc-link:hover {
+    text-decoration: underline;
+}
+
+.toc-main-section {
+    font-weight: bold;
+}
+
+/* ========================================
+   TYPOGRAPHY
+   ======================================== */
+
+h1 {
+    padding-top: 20pt;
+    padding-bottom: 6pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+    font-size: 26pt;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+h2 {
+    padding-top: 18pt;
+    padding-bottom: 6pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+    font-size: 20pt;
+    color: #000000;
+    font-weight: 400;
+}
+
+h3 {
+    padding-top: 16pt;
+    padding-bottom: 4pt;
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+    font-size: 14pt;
+    color: #434343;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+}
+
+/* ========================================
+   LAYOUT CLASSES
+   ======================================== */
+
+.content-section {
+    margin-bottom: 20pt;
+}
+
+.text-content {
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.image-container {
+    text-align: left;
+    margin: 10pt 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ========================================
+   LINKS
+   ======================================== */
+
+a {
+    color: #1155cc;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.external-link {
+    color: #1155cc;
+    text-decoration: none;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.spacer {
+    height: 11pt;
+}
+
+.github-link {
+    text-align: left;
+    margin: 10pt 0;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20pt;
+        max-width: 100%;
+    }
+    
+    .contact-name {
+        font-size: 24pt;
+    }
+    
+    .contact-title {
+        font-size: 16pt;
+    }
+    
+    h1 {
+        font-size: 22pt;
+    }
+    
+    h2 {
+        font-size: 18pt;
+    }
+} 
